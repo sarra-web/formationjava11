@@ -7,7 +7,7 @@ public class InterruptThread {
             while (!ct.isInterrupted()) {//check interrupt signal when running
                 //perform thread actions
                 try {
-                    Thread.sleep(1000);//enter time waiting for 1000 ms
+                    Thread.sleep(2000);//enter time waiting for 1000 ms
                 } catch (InterruptedException e) {
 
                     //perform interrrupted when waiting actions
